@@ -4,8 +4,8 @@ import "ant-design-vue/dist/reset.css";
 </script>
 <template>
   <div>
-    <a-extract-style>
+    <AExtractStyle>
       <NuxtPage/>
-    </a-extract-style>
+    </AExtractStyle>
   </div>
 </template>

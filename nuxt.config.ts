@@ -6,7 +6,7 @@ import {AntDesignVueResolver} from 'unplugin-vue-components/resolvers';
 export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
     devtools: {enabled: true},
-    modules: ['@ant-design-vue/nuxt'],
+    modules: ['@ant-design-vue/nuxt', '@pinia/nuxt'],
     css: ['~/style.css'],
 
     vite: {
